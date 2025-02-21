@@ -1,0 +1,63 @@
+# Игнорировать виртуальные окружения
+venv/
+env/
+.venv/
+ENV/
+
+# Игнорировать файлы, специфичные для Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорировать файлы, созданные setuptools
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Игнорировать файлы, связанные с IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Игнорировать файлы, связанные с Jupyter Notebook
+.ipynb_checkpoints/
+
+# Игнорировать файлы, связанные с тестами и покрытием кода
+.coverage
+htmlcov/
+.pytest_cache/
+.coverage.*
+*.cover
+*.mo
+*.pot
+
+# Игнорировать файлы, связанные с операционной системой
+.DS_Store
+Thumbs.db
+
+# Игнорировать файлы, связанные с pipenv
+Pipfile.lock
+
+# Игнорировать файлы, связанные с poetry
+poetry.lock
+
+# Игнорировать файлы, связанные с mypy
+.mypy_cache/
+
+# Игнорировать файлы, связанные с логированием
+*.log
+logs/
+
+# Игнорировать файлы, связанные с конфигурацией
+*.ini
+*.cfg
+*.conf
+
+# Игнорировать файлы, связанные с базами данных
+*.db
+*.sqlite3
+# VSC
+*.code-workspace
